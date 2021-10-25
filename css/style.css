@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", sans-serif;
+}
+
+.h1-heading {
+  color: green;
+  text-align: center;
+}
+
+.main-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+}
+
+.center {
+  text-align: center;
+  list-style: none;
+}
+
+.recipe-link:link,
+.recipe-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: darkolivegreen;
+  margin: 12px 24px;
+}
+
+.recipe-link:hover,
+.recipe-link:active {
+  text-decoration: underline;
+}
