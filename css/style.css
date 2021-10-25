@@ -8,6 +8,11 @@ body {
   font-family: "Courier New", sans-serif;
 }
 
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .h1-heading {
   color: green;
   text-align: center;
@@ -36,4 +41,44 @@ body {
 .recipe-link:hover,
 .recipe-link:active {
   text-decoration: underline;
+}
+
+/* RECIPES STYLING */
+.food-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+}
+
+.h2-heading {
+  color: darkgreen;
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+
+.recipe-description {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.list {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.unordered-list {
+  margin-left: 12px;
+}
+
+.unordered-list li:last-child {
+  margin-bottom: 12px;
+}
+
+.ordered-list {
+  margin-left: 28px;
+}
+
+.ordered-list li:last-child {
+  margin-bottom: 12px;
 }
